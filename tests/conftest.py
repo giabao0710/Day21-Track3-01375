@@ -16,6 +16,7 @@ import pytest
 
 # Keep `import labkit` working from a bare checkout, with no install step.
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "src"))
+sys.path.insert(0, os.path.dirname(__file__))
 
 
 @pytest.fixture(autouse=True)

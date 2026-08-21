@@ -11,3 +11,6 @@ addopts = "-q"
 
 [tool.jupytext]
 formats = "py:percent"
+
+[tool.pyright]
+extraPaths = ["src", "tests"]
